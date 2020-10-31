@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms Demo</title>
+  </head>
+
+  <body>
+    <h1>Forms Demo</h1>
+    <form action="/tacos/">
+      <p>
+        <label for="username">Enter a username:</label>
+        <input
+          id="username"
+          type="text"
+          placeholder="username"
+          name="username"
+        />
+      </p>
+      <p>
+        <label for="password">Enter a password: </label>
+        <input
+          id="password"
+          type="password"
+          placeholder="password"
+          name="password"
+        />
+      </p>
+      <p>
+        <label for="color">Enter a color:</label>
+        <input id="color" type="color" name="color" />
+      </p>
+      <p>
+        <label for="number">Enter a number:</label>
+        <input
+          id="number"
+          type="number"
+          placeholder="number"
+          name="num"
+          min="1"
+          max="10"
+        />
+      </p>
+      <!-- this button doesn't submit the form b/c of the "type" attribute -->
+      <button type="button">Regular button (won't submit)</button>
+      <!-- this button submits the form! -->
+      <button>Submit</button>
+      <!-- so does this one! -->
+      <input type="submit" value="Click me!" />
+    </form>
+    <hr />
+    <!-- Outside of a form, no default behaviour! -->
+    <button>Not inside form</button>
+    <hr />
+    <h2>Hijacking Searches</h2>
+    <!-- Search Reddit -->
+    <h3>Search Reddit</h3>
+    <form action="https://www.reddit.com/search">
+      <input type="text" name="q" /> <button>Search Reddit</button>
+    </form>
+    <!-- Search Google -->
+    <h3>Search Google</h3>
+    <form action="https://www.google.com/search">
+      <input type="text" name="q" /> <button>Search Google</button>
+      <!-- Search YouTube -->
+      <h3>Search Youtube</h3>
+    </form>
+    <form action="https://www.youtube.com/results">
+      <input type="text" name="search_query" /> <button>Search Youtube</button>
+    </form>
+
+    <h2>More Inputs!</h2>
+    <!-- Checkbox, Radio -->
+    <form action="/birds">
+      <!-- Checkbox -->
+      <input type="checkbox" name="agree_tos" id="agree" />
+      <label for="agree">I agree to everything!</label>
+      <!-- Radio -->
+      <p>
+        <label for="xs">XS</label>
+        <input type="radio" name="size" id="xs" value="xs" />
+        <label for="s">S</label>
+        <input type="radio" name="size" id="s" value="s" />
+        <label for="m">M</label>
+        <input type="radio" name="size" id="m" value="m" />
+      </p>
+      <!-- Select -->
+      <p>
+        <label for="meal">Please select an Entree</label>
+        <select name="meal" id="meal">
+          <option value="" disabled selected>--Selection--</option>
+          <option value="fish">Fish</option>
+          <option value="veg">Vegetarian</option>
+          <option value="steak">Steak</option>
+          <option value="chicken">Chicken</option>
+        </select>
+      </p>
+
+      <!-- Range -->
+      <p>
+        <label for="cheese">Amount of cheese</label>
+        <input
+          type="range"
+          name="cheese_level"
+          id="cheese"
+          min="1"
+          max="100"
+          value="50"
+        />
+      </p>
+      <!-- textarea -->
+      <p>
+        <label for="requests">Any Special Requests?</label>
+        <textarea
+          name="requests"
+          id="requests"
+          cols="30"
+          rows="5"
+          placeholder="Type here"
+        ></textarea>
+      </p>
+      <button>Submit</button>
+    </form>
+
+    <h2>Validations Demo</h2>
+    <form action="/dummy">
+      <label for="first">Enter first name:</label>
+      <input type="text" name="name" id="first" required />
+      <p>
+        <label for="username2">Username:</label>
+        <input
+          type="text"
+          name="username2"
+          id="username2"
+          minlength="5"
+          maxlength="20"
+          required
+        />
+      </p>
+
+      <p>
+        <!-- <input type="email" name="" id="" required /> -->
+      </p>
+      <input type="url" name="" id="" />
+      <button>Submit</button>
+    </form>
+  </body>
+</html>
