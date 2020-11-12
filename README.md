@@ -10,7 +10,7 @@ The languages used up to now are:
 - HTML
 - CSS
 
-By the end of the course, one should have enough knowledge to embark into a web development journey.
+By the end of the course, one should have enough knowledge to embark into a web development journey, or at least the means to start one.
 
 Currently, 133 of 674 classes complete.
 
