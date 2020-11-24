@@ -8,7 +8,7 @@ This repo is a compilation of all code taught in `The Web Developer Bootcamp 202
 The languages used up to now are:
 
 - HTML
-- CSS
+- CSS -> Bootstrap
 
 By the end of the course, one should have enough knowledge to embark into a web development journey.
 
