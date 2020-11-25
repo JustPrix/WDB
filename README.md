@@ -9,6 +9,7 @@ The languages used up to now are:
 
 - HTML
 - CSS -> Bootstrap
+- Javascript
 
 By the end of the course, one should have enough knowledge to embark into a web development journey.
 
