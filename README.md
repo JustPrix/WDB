@@ -5,15 +5,16 @@
 ## Description
 
 This repo is a compilation of all code taught in `The Web Developer Bootcamp 2020` by Colt Steel.
-The languages used up to now are:
+The technologies used up to now are:
 
 - HTML
 - CSS -> Bootstrap
 - Javascript
 - Node.JS -> NPM
+- ExpressJS
 
 By the end of the course, one should have enough knowledge to embark into a web development journey.
 
-Currently, 418 of 674 classes complete.
+Currently, 432 of 674 classes complete.
 
 <!-- Repo for the bootcamp WDB 2020 by Colt Steel. -->
