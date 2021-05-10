@@ -13,9 +13,10 @@ The technologies used up to now are:
 - Node.JS -> NPM
 - ExpressJS
 - MongoDB -> Mongoose
+- JOI
 
 By the end of the course, one should have enough knowledge to embark into a web development journey.
 
-Currently, 489 of 674 classes complete.
+Currently, 607 of 683 classes complete.
 
 <!-- Repo for the bootcamp WDB 2020 by Colt Steel. -->
